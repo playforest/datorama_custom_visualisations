@@ -1,5 +1,3 @@
-var query_json = {Query.JSON};
-
 // this widget was originally built with the assumption that each metric would have pacing data associated with it
 // function below allows for this assumption to be lifted
 function setConvention(dataObject, metric_settings) {

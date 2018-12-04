@@ -161,7 +161,7 @@ function setSeriesConfiguration(dataObject) {
             overshoot
         }
 
-        if(name.toLowerCase().includes('pacing')) {
+        if(index % 2 === 0) {
             tooltip = {
                 pointFormatter: function() {
                     return null;
